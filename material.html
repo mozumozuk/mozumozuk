@@ -39,8 +39,8 @@
           map: texture,
         });
         // メッシュを作成
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
+        const earthmesh = new THREE.Mesh(geometry, material);
+        scene.add(earthmesh);
         
         // 星屑を作成します (カメラの動きをわかりやすくするため)
         createStarField();
